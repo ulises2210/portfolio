@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+html,
+body {
+    margin: 0px;
+    background-color: #111827;
+    /* background-color: var(--surface-b); */
+    font-family: var(--font-family);
+    color: var(--text-color);
+}
+
+.totalScreen{
+  height: 100vh;
+}
+
+.p-dialog{
+  border-radius: 100px !important
+}
+.p-toast-message-success {
+  background-color: #D3E4DF !important; /* Light green background */
+  color: #3c763d !important; /* Dark green text */
+}

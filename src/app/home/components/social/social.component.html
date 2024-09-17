@@ -1,0 +1,33 @@
+<div class="col-2  h-full align-content-center">
+  <!-- <p-messages /> -->
+  <p-toast  />
+  <div class="col-12">
+      <div class="col-12 redondeo shadow-8 text-center align-content-center cursor-pointer linkd icon" (click)="openLinked()"  >
+        <!-- <a href="http://www.linkedin.com/in/ulises-ceron-mendez" target="_blank" > -->
+          <i class="pi pi-linkedin" style="font-size: 1.5rem"></i>
+    <!-- </a> -->
+
+      </div>
+  </div>
+  <div class="col-12">
+    <div class="col-12  redondeo shadow-8 text-center align-content-center cursor-pointer phone" tabindex="0" (click)="copyToClipboard('+522271534677','phone')">
+      <i class="pi pi pi-mobile" style="font-size: 1.5rem"></i>
+    </div>
+  <!-- <p-button size="large" [text]="true" [raised]="true" [rounded]="true" [severity]="'help'" [icon]="'pi pi-mobile'"></p-button> -->
+
+  </div>
+  <div class="col-12">
+    <div class="col-12  redondeo shadow-8 text-center align-content-center cursor-pointer mail" (click)="openEmailClient()">
+      <i class="pi pi pi-envelope" style="font-size: 1.5rem"></i>
+    </div>
+  <!-- <p-button size="large" [text]="true" [raised]="true" [rounded]="true" [severity]="'danger'" [icon]="'pi pi-envelope'"></p-button> -->
+
+  </div>
+  <div class="col-12">
+    <div class="col-12  redondeo shadow-8 text-center align-content-center cursor-pointer fb">
+      <i class="pi pi pi-facebook" style="font-size: 1.5rem"></i>
+    </div>
+  <!-- <p-button size="large" [text]="true" [raised]="true" [rounded]="true" [severity]="'info'" [icon]="'pi pi-facebook'"></p-button> -->
+
+  </div>
+</div>

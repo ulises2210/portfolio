@@ -1,0 +1,48 @@
+.redondeo {
+  width: 4.1rem;
+  height: 3rem;
+  border-radius: 1.5rem;
+  /* border: 1px solid white; */
+}
+
+.icon{
+  transition: transform 2s ease;
+
+}
+
+.linkd:hover {
+  transition: transform 2s ease;
+
+  background:#0e76a8	;
+}
+.linkd:visited {
+  border: white solid 1px solid;
+}
+.phone:hover {
+  background:green;
+}
+.phone:active {
+  border: wheat solid 1px solid !important;
+}
+.phone:focus {
+  /* background:green; */
+  border: wheat solid 1px solid !important;
+
+}
+
+.mail:hover {
+  background:#c71610	;
+}
+
+.fb:hover {
+  background: #3b5998;
+}
+/* .phone:active {
+  background-color: #0056b3;
+}
+
+/* Estilo para el estado enfocado (cuando está seleccionado) */
+/* .phone:focus {
+
+  border: wheat solid 1px solid !important;
+}  */
