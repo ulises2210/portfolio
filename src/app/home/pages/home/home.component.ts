@@ -3,7 +3,7 @@ import { CardModule } from 'primeng/card'
 import { ButtonModule } from 'primeng/button'
 import { DialogModule } from 'primeng/dialog'
 import { MeComponent } from '../../components/me';
-import { My_photoComponent, SocialComponent } from '../../components';
+import { My_photoComponent, NavbarComponent, SocialComponent } from '../../components';
 import { CommonModule } from '@angular/common';
 import { ClipboardModule, ClipboardService } from 'ngx-clipboard';
 
@@ -12,7 +12,7 @@ import { ClipboardModule, ClipboardService } from 'ngx-clipboard';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
   standalone: true,
-  imports: [CardModule,ButtonModule,DialogModule,MeComponent,My_photoComponent,CommonModule,ClipboardModule,SocialComponent]
+  imports: [CardModule,ButtonModule,DialogModule,MeComponent,My_photoComponent,CommonModule,ClipboardModule,SocialComponent,NavbarComponent]
 })
 export class HomeComponent implements OnInit {
 
